@@ -4,6 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/SwiftTow.iml" filepath="$PROJECT_DIR$/.idea/modules/SwiftTow.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/SwiftTow.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/SwiftTow.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/SwiftTow.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/SwiftTow.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/SwiftTow.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/SwiftTow.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/SwiftTow.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/SwiftTow.app.unitTest.iml" />
     </modules>
   </component>
 </project>
