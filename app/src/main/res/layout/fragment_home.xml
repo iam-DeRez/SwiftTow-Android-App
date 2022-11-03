@@ -29,9 +29,9 @@
             android:background="@drawable/textboxbg"
             android:ems="10"
             android:fontFamily="@font/medium"
-            android:hint="🔍 Where are you?"
-            android:paddingStart="15dp"
+            android:hint="Where are you?"
             android:inputType="textPersonName"
+            android:paddingStart="15dp"
             android:textSize="14dp"
             app:layout_constraintBottom_toTopOf="@+id/imageView19"
             app:layout_constraintEnd_toEndOf="parent"
@@ -58,7 +58,7 @@
             app:srcCompat="@drawable/truck" />
 
         <TextView
-            android:id="@+id/textView23"
+            android:id="@+id/username"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="116dp"
@@ -83,7 +83,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.105"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView23" />
+            app:layout_constraintTop_toBottomOf="@+id/username" />
 
         <ImageView
             android:id="@+id/imageView16"
@@ -173,32 +173,18 @@
             app:layout_constraintTop_toBottomOf="@+id/imageView21">
 
             <TextView
-                android:id="@+id/textView25"
-                android:layout_width="191dp"
-                android:layout_height="24dp"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentTop="true"
-                android:layout_alignParentEnd="true"
-                android:layout_marginStart="15dp"
-                android:layout_marginTop="20dp"
-                android:layout_marginEnd="151dp"
-                android:fontFamily="@font/bold"
-                android:text="Need some tips?"
-                android:textSize="20dp" />
-
-            <TextView
                 android:id="@+id/textView26"
                 android:layout_width="316dp"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/textView25"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentEnd="true"
-                android:layout_marginStart="16dp"
-                android:layout_marginTop="9dp"
-                android:layout_marginEnd="25dp"
-                android:textColor="@color/gray"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="23dp"
                 android:fontFamily="@font/regular"
                 android:text="These tips will help you in case you find yourself in the case of your vehicle breaking down."
+                android:textColor="@color/gray"
                 android:textSize="14dp" />
 
             <ImageView
@@ -209,11 +195,26 @@
                 android:layout_alignParentStart="true"
                 android:layout_alignParentEnd="true"
                 android:layout_alignParentBottom="true"
-                android:layout_marginStart="16dp"
-                android:layout_marginTop="24dp"
-                android:layout_marginEnd="233dp"
-                android:layout_marginBottom="37dp"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="231dp"
+                android:layout_marginBottom="26dp"
                 app:srcCompat="@drawable/seetips" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="191dp"
+                android:layout_height="24dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="17dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="149dp"
+                android:fontFamily="@font/bold"
+                android:text="Need some tips?"
+                android:textSize="20dp" />
+
         </RelativeLayout>
 
         <androidx.constraintlayout.widget.Guideline

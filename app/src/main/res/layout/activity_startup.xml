@@ -10,7 +10,7 @@
     <Button
         android:id="@+id/button"
         android:layout_width="357dp"
-        android:layout_height="49dp"
+        android:layout_height="55dp"
         android:fontFamily="@font/bold"
         android:text="Get Started"
         android:onClick="signup"

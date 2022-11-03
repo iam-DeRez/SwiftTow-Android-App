@@ -14,7 +14,7 @@
         app:layout_constraintGuide_begin="367dp" />
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress"
+        android:id="@+id/LoginEditTextEmailAddress"
         android:layout_width="338dp"
         android:layout_height="45dp"
         android:background="@color/ambient2"
@@ -42,10 +42,9 @@
         app:srcCompat="@drawable/google" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/loginBtn"
         android:layout_width="339dp"
-        android:layout_height="44dp"
-        android:background="@drawable/btn"
+        android:layout_height="50dp"
         android:fontFamily="@font/bold"
         android:text="Log In"
         android:textAllCaps="false"
@@ -70,7 +69,7 @@
         app:srcCompat="@drawable/label" />
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/LoginEditTextPassword"
         android:layout_width="338dp"
         android:layout_height="45dp"
         android:background="@color/ambient2"
@@ -82,7 +81,7 @@
         android:textSize="13dp"
         app:endIconMode="password_toggle"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/button2"
+        app:layout_constraintStart_toStartOf="@+id/loginBtn"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.459" />
 
@@ -95,7 +94,7 @@
         android:textColor="@color/black"
         android:textSize="14dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/editTextTextPassword"
+        app:layout_constraintStart_toStartOf="@+id/LoginEditTextPassword"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.408" />
 
@@ -135,7 +134,7 @@
         android:textColor="@color/black"
         android:textSize="14dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/editTextTextEmailAddress"
+        app:layout_constraintStart_toStartOf="@+id/LoginEditTextEmailAddress"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.271" />
 
