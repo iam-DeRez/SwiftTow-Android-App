@@ -7,6 +7,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
@@ -31,6 +32,7 @@ public class homeFragment extends Fragment {
     private FirebaseUser user;
     private DatabaseReference reference;
     private String userID;
+    EditText map;
 
 
 
