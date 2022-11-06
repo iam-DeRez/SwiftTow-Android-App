@@ -33,6 +33,7 @@ public class Permission extends AppCompatActivity {
 
         //code to move the user from splash activity to the startup activity if the permission is granted
         if(ContextCompat.checkSelfPermission(Permission.this, Manifest.permission.ACCESS_FINE_LOCATION)== PackageManager.PERMISSION_GRANTED) {
+            startActivity(new Intent(Permission.this,startup.class));
             finish();
             return;
 
