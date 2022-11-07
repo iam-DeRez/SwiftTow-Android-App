@@ -15,15 +15,30 @@
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.452"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.334" />
+        app:layout_constraintVertical_bias="0.331" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="301dp"
+        android:layout_height="63dp"
+        android:fontFamily="@font/regular"
+        android:text="Enable your location to have the best experience on our app"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.399" />
 
     <Button
         android:id="@+id/btn_grant"
         android:layout_width="339dp"
-        android:layout_height="50dp"
+        android:layout_height="55dp"
         android:fontFamily="@font/bold"
         android:text="Grant Permission"
         android:textAllCaps="false"
@@ -43,47 +58,7 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.089"
+        app:layout_constraintVertical_bias="0.11"
         app:srcCompat="@drawable/googlemaps" />
 
-    <TextView
-        android:id="@+id/textView20"
-        android:layout_width="254dp"
-        android:layout_height="18dp"
-        android:fontFamily="@font/regular"
-        android:text="Enable your location to have a better "
-        android:textSize="15sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/textView18"
-        app:layout_constraintHorizontal_bias="0.496"
-        app:layout_constraintStart_toStartOf="@+id/textView18"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.407" />
-
-    <TextView
-        android:id="@+id/textView22"
-        android:layout_width="202dp"
-        android:layout_height="21dp"
-        android:fontFamily="@font/regular"
-        android:text="to have the best experience"
-        android:textSize="15sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/textView20"
-        app:layout_constraintHorizontal_bias="0.397"
-        app:layout_constraintStart_toStartOf="@+id/textView20"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.431" />
-
-    <TextView
-        android:id="@+id/textView23"
-        android:layout_width="113dp"
-        android:layout_height="17dp"
-        android:fontFamily="@font/regular"
-        android:text="on our app"
-        android:textSize="15sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/textView22"
-        app:layout_constraintStart_toStartOf="@+id/textView22"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.455" />
 </androidx.constraintlayout.widget.ConstraintLayout>
